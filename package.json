@@ -1,0 +1,43 @@
+{
+  "name": "project-hub",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "start pac code run && vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@aldabil/react-scheduler": "^3.1.2",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@tailwindcss/vite": "^4.1.12",
+    "@tanstack/react-query": "^5.85.6",
+    "@tanstack/react-router": "^1.131.31",
+    "@tanstack/react-router-devtools": "^1.131.31",
+    "antd": "^5.27.2",
+    "dayjs": "^1.11.18",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "tailwindcss": "^4.1.12"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "@pa-client/power-code-sdk": "https://github.com/microsoft/PowerAppsCodeApps/releases/download/v0.0.4/7-31-pa-client-power-code-sdk-0.0.1.tgz",
+    "@tanstack/eslint-plugin-query": "^5.83.1",
+    "@tanstack/router-plugin": "^1.131.31",
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^5.0.0",
+    "eslint": "^9.33.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.39.1",
+    "vite": "^7.1.2"
+  }
+}

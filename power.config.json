@@ -1,0 +1,49 @@
+{
+  "appId": "",
+  "appDisplayName": "Project-HUB",
+  "description": null,
+  "environmentId": "Default-46c9827f-ab05-45a8-b96f-476ecc729df9",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "logoPath": "Default",
+  "localAppUrl": "http://localhost:3000/",
+  "connectionReferences": {
+    "6f683d8a-4075-4714-9359-d81a0f16ef10": {
+      "id": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline",
+      "displayName": "SharePoint",
+      "dataSources": [
+        "projects",
+        "users",
+        "tasks"
+      ],
+      "authenticationType": null,
+      "sharedConnectionId": null,
+      "dataSets": {
+        "https%253A%252F%252Fcloudsurgeuk.sharepoint.com%252Fsites%252FSharePointDevelopment": {
+          "dataSources": {
+            "projects": {
+              "tableName": "5848182f-e70a-4c19-a950-5caa1200a2c4"
+            },
+            "users": {
+              "tableName": "21a09cb8-ed6d-4f68-8c08-9f4c9ad833c9"
+            },
+            "tasks": {
+              "tableName": "ed32fb20-6218-40b1-9cd4-9dd3fbdd9a7c"
+            }
+          }
+        }
+      }
+    },
+    "8d6859ff-078e-4333-ad0d-b54c6338a769": {
+      "id": "/providers/Microsoft.PowerApps/apis/shared_office365users",
+      "displayName": "Office 365 Users",
+      "dataSources": [
+        "office365users"
+      ],
+      "authenticationType": null,
+      "sharedConnectionId": null,
+      "dataSets": {}
+    }
+  },
+  "databaseReferences": {}
+}
